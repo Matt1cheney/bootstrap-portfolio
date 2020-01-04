@@ -1,1 +1,2 @@
 # bootstrap-portfolio
+using rows and columns with bootstrap I created a basic webpage with a little about myself and a contact me page. I ran into trouble with getting the toggle button in the navbar to function correctly and currently immediately closes when clicked so if using a phone you can not access the other pages.

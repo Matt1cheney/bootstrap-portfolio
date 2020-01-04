@@ -1,0 +1,12 @@
+.portrait {
+  text-align: center;
+  display: inline-block ;
+}
+@media ( max-width: 768px) {
+ .portrait {
+   margin: auto ;
+  text-align: center ;
+  display: inline-block ; }
+ } 
+
+
