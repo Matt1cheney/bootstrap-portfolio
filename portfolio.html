@@ -11,171 +11,116 @@
   <link rel="style sheet" type="style/css" href="style.css" />
   <!--title-->
   <title>My Portfolio</title>
+
+  <header>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About me <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
 </head>
 
 <body>
-  <!--big container-->
-  <div class="container col-lg-12 p-0">
+
+
+  <div class="container-fluid bg-light mb-0 ">
+
+    <!--Thumbnail Images-->
+    <!--image 1-->
     <div class="row">
-      <div class="col-lg-12">
-        <header>
-          <!--navbar-->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">My Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">About me <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </ul>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="images\Hangman.png">
+            <img src="images\Hangman.png" class="img-fluid" alt="Hangman" style="width:100%">
+            <div class="caption">
+              <p>hangman</p>
             </div>
-          </nav>
-        </header>
-      </div>
-      <!--end navbar-->
-    </div>
-
-    <!--jumbotron container-->
-    <div class="container col-lg-12">
-
-      <!--row to keep jumbotron correct width-->
-      <div class="row">
-
-        <!--jumbotron row-->
-
-        <div class="row">
-
-          <!--jumbotron column-->
-
-          <div class="col-sm-12">
-            <!--Jumbotron-->
-
-            <div class="jumbotron mb-0 ">
-
-              <!--Jumbotron Content-->
-
-              <div class="row">
-                <div class="col-lg-12">
-                  
-                </div>
-              </div>
-              <!--thumbnail row-->
-
-              <div class="row">
-
-
-                <!--Thumbnail Images-->
-                <!--image 1-->
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="thumbnail">
-                      <a href="images\Hangman.png">
-                        <img src="images\Hangman.png" class="img-fluid" alt="Hangman" style="width:100%">
-                        <div class="caption">
-                          <p>hangman</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <!--image 2-->
-                  <div class="col-md-4">
-                    <div class="thumbnail">
-                      <a href="images\DesertIsland.webp">
-                        <img src="images\DesertIsland.webp" class="img-fluid" alt="Nature" style="width:100%">
-                        <div class="caption">
-                          <p>Rutgers Info Widgets</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <!--image 3-->
-                  <div class="col-md-4">
-                    <div class="thumbnail">
-                      <a href="images\RPG.webp">
-                        <img src="images\RPG.webp" class="img-fluid" alt="RPG Game" style="width:100%">
-                        <div class="caption">
-                          <p>RPG Game</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <!--image 4-->
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="thumbnail">
-                      <a href="/w3images/lights.jpg">
-                        <img src="images\rock_paper_scissors.png" class="img-fluid" alt="rock_paper_scissors" style="width:100%">
-                        <div class="caption">
-                          <p>rock_paper_scissors</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <!--image 5-->
-                  <div class="col-md-4">
-                    <div class="thumbnail">
-                      <a href="/w3images/nature.jpg">
-                        <img src="images\Trivia-Night.jpg" class="img-fluid" alt="Trivia-Night" style="width:100%">
-                        <div class="caption">
-                          <p>Trivia-Night</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <!--thumbnail row-->
-              </div>
-
-              <!--Jumbotron-->
-            </div>
-
-            <!--jumbotron column-->
-          </div>
-
-          <!--jumbotron row-->
+          </a>
         </div>
-
-        <!--row to keep jumbotron correct width-->
       </div>
-
-      <!--jumbotron container-->
+      <!--image 2-->
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="images\DesertIsland.webp">
+            <img src="images\DesertIsland.webp" class="img-fluid" alt="Nature" style="width:100%">
+            <div class="caption">
+              <p>Rutgers Info Widgets</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!--image 3-->
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="images\RPG.webp">
+            <img src="images\RPG.webp" class="img-fluid" alt="RPG Game" style="width:100%">
+            <div class="caption">
+              <p>RPG Game</p>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
-
-
-
-    <!--footer row-->
+    <!--image 4-->
     <div class="row">
-
-      <div class="col-lg-12">
-        <!-- Footer -->
-        <footer class="page-footer font-small bg-primary">
-
-          <!-- Copyright -->
-          <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <div class=" text-light">Matthew Cheney</div>
-
-          </div>
-          <!-- Copyright -->
-
-        </footer>
-        <!-- Footer -->
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="/w3images/lights.jpg">
+            <img src="images\rock_paper_scissors.png" class="img-fluid" alt="rock_paper_scissors" style="width:100%">
+            <div class="caption">
+              <p>rock_paper_scissors</p>
+            </div>
+          </a>
+        </div>
       </div>
-      <!--footer row end-->
+      <!--image 5-->
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="/w3images/nature.jpg">
+            <img src="images\Trivia-Night.jpg" class="img-fluid" alt="Trivia-Night" style="width:100%">
+            <div class="caption">
+              <p>Trivia-Night</p>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
 
-
+    <!--Jumbotron-->
   </div>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small bg-primary">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <div class=" text-light">Matthew Cheney</div>
+
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
   <!--for toggle bar funciton-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
