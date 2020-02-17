@@ -1,0 +1,9 @@
+.thumbnail {
+  margin: 4vh;
+  display: inline-block;
+}
+.img-fluid {
+  width:auto ; 
+  height: 20vh ; 
+  display: inline-block;
+}
