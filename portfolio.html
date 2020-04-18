@@ -1,141 +1,188 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+    <!--css sheet and bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--title-->
+    <title>My Portfolio</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!--css sheet and bootstrap-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css" >
-  <!--title-->
-  <title>My Portfolio</title>
-
-  <header>
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">My Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About me <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-
-</head>
-
-<body>
-
-
-  <div class="text-center container-fluid bg-light mb-0 ">
-
-    <!--Thumbnail Images-->
-    <!--image 1-->
-    
-      
-        <div class="text-center thumbnail">
-          <a href="https://matt1cheney.github.io/jQuery_Calculator/"target="_blank">
-            <img src="images\jQueryCalc.png" class="img-fluid" alt="Hangman">
-            <span class="caption">
-              <p>jQuery Calculator</p>
-            </span>
-          </a>
-          <a href="https://github.com/Matt1cheney/jQuery_Calculator" target="_blank">
-            GitHub Repo  
-          </a>
+    <header>
+      <!--navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >About me <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
         </div>
-      
-      <!--image 2-->
-        <div class="text-center thumbnail">
-          <a href="https://danielledaley2196.github.io/DOGS/" target="_blank">
-            <img src="images\dogsScreenShot.png" class="img-fluid" alt="Nature">
-            <span class="caption">
-              <p>Where can I take my Dog?</p>
-            </span>
-          </a>
-         <a href="https://github.com/danielledaley2196/DOGS" target="_blank">
-          GitHub Repo  
+      </nav>
+    </header>
+  </head>
+
+  <body>
+    <div class="text-center container-fluid bg-light mb-0">
+      <!--Thumbnail Images-->
+      <!--image 1-->
+
+      <div class="text-center thumbnail">
+        <a
+          href="https://matt1cheney.github.io/jQuery_Calculator/"
+          target="_blank"
+        >
+          <img src="images\jQueryCalc.png" class="img-fluid" alt="Hangman" />
+          <span class="caption">
+            <p>jQuery Calculator</p>
+          </span>
         </a>
-          
-        </div>
-      
+        <a
+          href="https://github.com/Matt1cheney/jQuery_Calculator"
+          target="_blank"
+        >
+          GitHub Repo
+        </a>
+      </div>
+
+      <!--image 2-->
+      <div class="text-center thumbnail">
+        <a href="https://danielledaley2196.github.io/DOGS/" target="_blank">
+          <img src="images\dogsScreenShot.png" class="img-fluid" alt="Nature" />
+          <span class="caption">
+            <p>Where can I take my Dog?</p>
+          </span>
+        </a>
+        <a href="https://github.com/danielledaley2196/DOGS" target="_blank">
+          GitHub Repo
+        </a>
+      </div>
+
       <!--image 3-->
-      
-        <div class="text-center thumbnail">
-          <a href="https://matt1cheney.github.io/password-generator/"target="_blank">
-            <img src="images\passwordScreenShot.png" class="img-fluid" alt="RPG Game">
-            <span class="caption">
-              <p>Password Generator</p>
-            </span>
-          </a>
-          <a href="https://github.com/Matt1cheney/password-generator" target="_blank">
-            GitHub Repo  
-          </a>
-        </div>
-    
-    
-    <!--image 4-->
-    
-      
-        <!-- <div class="text-center thumbnail">
-          <a href="/w3images/lights.jpg">
-            <img src="images\rock_paper_scissors.png" class="img-fluid" alt="rock_paper_scissors" >
-            <span class="caption">
-              <p>rock_paper_scissors</p>
-            </span>
-          </a>
-        </div> -->
-      
-      <!--image 5-->
-      
-        <!-- <div class="text-center thumbnail">
-          <a href="/w3images/nature.jpg">
-            <img src="images\Trivia-Night.jpg" class="img-fluid" alt="Trivia-Night" style="width:auto ; height: 20vh ; display: inline-block;">
-            <span class="caption">
-              <p>Trivia-Night</p>
-            </span>
-          </a>
-        </div>
-    
-    
-      </div> -->
 
+      <div class="text-center thumbnail">
+        <a
+          href="https://matt1cheney.github.io/password-generator/"
+          target="_blank"
+        >
+          <img
+            src="images\passwordScreenShot.png"
+            class="img-fluid"
+            alt="RPG Game"
+          />
+          <span class="caption">
+            <p>Password Generator</p>
+          </span>
+        </a>
+        <a
+          href="https://github.com/Matt1cheney/password-generator"
+          target="_blank"
+        >
+          GitHub Repo
+        </a>
+      </div>
 
-    <!--Jumbotron-->
-  </div>
+      <!-- image 4 -->
 
-  <!-- Footer -->
-  <footer class="page-footer font-small bg-primary">
+      <div class="text-center thumbnail">
+        <a href="https://krusty-krab-pattymaker.herokuapp.com/" target="_blank">
+          <img
+            src="images\krabby-patty maker.png"
+            class="img-fluid"
+            alt="krabby_patty"
+          />
+          <span class="caption">
+            <p>Krabby Patty eat-da-burger</p>
+          </span>
+        </a>
+        <a href="https://github.com/Matt1cheney/krabby_patties" target="_blank">
+          GitHub Repo
+        </a>
+      </div>
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <div class=" text-light">Matthew Cheney</div>
+      <!-- image 5 -->
 
+      <div class="text-center thumbnail">
+        <a
+          href="https://immense-fjord-00641.herokuapp.com/signin"
+          target="_blank">
+          <img
+            src="images\speedy shopper.png"
+            class="img-fluid"
+            alt="Speedy Shopper"
+          />
+          <span class="caption">
+            <p>Speedy Shopper</p>
+          </span>
+        </a>
+        <a href="https://github.com/Matt1cheney/speedy-shopper" target="_blank">
+          <span>
+            <p>GitHub Repo</p>
+          </span>
+        </a>
+        <a href="https://github.com/yttel/speedy-shopper" target="_blank">
+          <span class="caption">
+            <p>Group GitHub Repo</p>
+          </span>
+        </a>
+      </div>
+      <!-- project 6 -->
+      <div class="text-center thumbnail">
+        <a href="http://lets-take-notes.herokuapp.com/" target="_blank">
+          <img src="images\note taker.png" class="img-fluid" alt="Note taker" />
+          <span class="caption">
+            <p>Note Taker</p>
+          </span>
+        </a>
+        <a href="https://github.com/Matt1cheney/takeNotes" target="_blank">
+          <span>
+            <p>GitHub Repo</p>
+          </span>
+        </a>
+      </div>
+
+      <!--Jumbotron-->
     </div>
-    <!-- Copyright -->
 
-  </footer>
-  <!-- Footer -->
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-primary">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <div class="text-light">Matthew Cheney</div>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
-
-  <!--for toggle bar funciton-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-</body>
-
+    <!--for toggle bar funciton-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
